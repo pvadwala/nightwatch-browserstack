@@ -1,3 +1,4 @@
+require('dotenv').config();
 var browserstack = require('browserstack-local');
 
 nightwatch_config = {

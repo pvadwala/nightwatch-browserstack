@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "browserstack-local": "^1.0.0",
-    "nightwatch": "^0.8.18"
+    "nightwatch": "^0.8.18",
+    "dotenv": "^4.0.0"
   },
   "license": "MIT"
 }
