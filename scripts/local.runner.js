@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+require('dotenv').config();
 var Nightwatch = require('nightwatch');
 var browserstack = require('browserstack-local');
 var bs_local;

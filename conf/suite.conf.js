@@ -24,7 +24,7 @@ nightwatch_config = {
   "test_workers": {
     "enabled": true,
     "workers": 10
-  }   
+  }
 };
 
 // Code to copy seleniumhost/port into test settings

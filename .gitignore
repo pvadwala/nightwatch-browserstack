@@ -1,4 +1,5 @@
 tests_output
 local.log
+selenium-debug.log
 node_modules
 .env
