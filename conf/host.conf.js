@@ -1,7 +1,8 @@
 require('dotenv').config();
 
 nightwatch_config = {
-  src_folders : [ "tests/single" ],
+  src_folders : [ "tests/host" ],
+  page_objects_path : "pages",
 
   selenium : {
     start_process : true,
