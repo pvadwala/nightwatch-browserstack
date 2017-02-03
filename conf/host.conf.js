@@ -25,6 +25,15 @@ nightwatch_config = {
       desiredCapabilities: {
         browserName: "firefox"
       }
+    },
+    phantomjs: {
+      desiredCapabilities: {
+        browserName: "phantomjs",
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true,
+        "phantomjs.binary.path" : "./bin/phantomjs.exe",
+        "phantomjs.cli.args" : []
+      }
     }
   },
 
